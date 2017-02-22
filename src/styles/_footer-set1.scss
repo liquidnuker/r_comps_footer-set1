@@ -10,7 +10,8 @@ body {
 
 // fset1_01
 // ==================================================/
-.fset1-01 {
+@mixin fset1_01 {
+  .fset1-01 {
   background-color: #4d3d29;
 }
 
@@ -51,7 +52,7 @@ body {
 
 }
 
-.fset1-01_leftnav2 {
+.fset1-01_leftnav {
   a {
     display: inline-block;
     color: #d7d6a1;
@@ -83,12 +84,12 @@ body {
   }
 }
 
-.fset1-01_leftnav2_nav-title {
+.fset1-01_leftnav_nav-title {
   font-weight: bold;
   color: #000;
 }
 
-.fset1-01_leftnav2_img-holder {
+.fset1-01_leftnav_img-holder {
   border:  1px solid #000;
   width: 20px;
   height: 20px;
@@ -124,3 +125,6 @@ body {
     margin-right: 6px;
   } 
 }
+}
+
+@include fset1_01;

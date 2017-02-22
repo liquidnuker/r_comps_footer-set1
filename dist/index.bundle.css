@@ -773,31 +773,31 @@ body {
   .fset1-01_img-holder > img {
     height: 100%; }
 
-.fset1-01_leftnav2 a {
+.fset1-01_leftnav a {
   display: inline-block;
   color: #d7d6a1;
   font-size: 16px;
   line-height: 100%;
   margin-left: 6px; }
 
-.fset1-01_leftnav2 > ul {
+.fset1-01_leftnav > ul {
   margin-left: 6px;
   margin-right: 6px; }
 
-.fset1-01_leftnav2 li {
+.fset1-01_leftnav li {
   padding: 6px 6px 6px 0px;
   margin-bottom: 6px; }
-  .fset1-01_leftnav2 li:first-of-type {
+  .fset1-01_leftnav li:first-of-type {
     border-bottom: 1px solid #000;
     padding: 0px 6px 6px 0px; }
-  .fset1-01_leftnav2 li:last-of-type {
+  .fset1-01_leftnav li:last-of-type {
     border-bottom: none; }
 
-.fset1-01_leftnav2_nav-title {
+.fset1-01_leftnav_nav-title {
   font-weight: bold;
   color: #000; }
 
-.fset1-01_leftnav2_img-holder {
+.fset1-01_leftnav_img-holder {
   border: 1px solid #000;
   width: 20px;
   height: 20px;
