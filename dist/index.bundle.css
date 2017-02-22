@@ -755,9 +755,9 @@ body {
   color: #372c1f; }
 
 .fset1-01_copyright {
-  text-align: center;
   display: block;
-  color: #fdffdf; }
+  color: #fdffdf;
+  text-align: center; }
 
 .fset1-01_segment1,
 .fset1-01_segment2,
@@ -793,10 +793,6 @@ body {
   .fset1-01_leftnav li:last-of-type {
     border-bottom: none; }
 
-.fset1-01_leftnav_nav-title {
-  font-weight: bold;
-  color: #000; }
-
 .fset1-01_leftnav_img-holder {
   border: 1px solid #000;
   width: 20px;
@@ -817,8 +813,7 @@ body {
 
 @media (min-width: 37.5em) {
   .fset1-01 {
-    padding: 6px 10px 6px 10px;
-    /* trbl */ }
+    padding: 6px 10px 6px 10px; }
   .fset1-01_img-holder {
     float: left;
     margin-right: 6px; } }

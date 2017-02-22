@@ -12,92 +12,84 @@ body {
 // ==================================================/
 @mixin fset1_01 {
   .fset1-01 {
-  background-color: #4d3d29;
-}
-
-.fset1-01 p {
-  color: #d7d6a1;
-}
-
-.fset1-01 h4 {
-  color: #fff;
-}
-
-.fset1-01 hr {
-  color: #372c1f;
-}
-
-.fset1-01_copyright {
-  text-align: center;
-  display: block;
-  color: #fdffdf;
-}
-
-.fset1-01_segment1,
-.fset1-01_segment2,
-.fset1-01_segment3 {
-  padding: 4px;
-}
-
-.fset1-01_img-holder {
-  border: 1px solid #000;
-  float: left;
-  width: 60px;
-  height: 60px;
-  margin-right: 6px;
-
-  > img {
-    height: 100%;
+    background-color: #4d3d29;
   }
 
-}
-
-.fset1-01_leftnav {
-  a {
-    display: inline-block;
+  .fset1-01 p {
     color: #d7d6a1;
-    font-size: 16px;
-    line-height: 100%;  
-    margin-left: 6px;
   }
 
-  > ul {
-    margin-left: 6px;
+  .fset1-01 h4 {
+    color: #fff;
+  }
+
+  .fset1-01 hr {
+    color: #372c1f;
+  }
+
+  .fset1-01_copyright {
+    display: block;
+    color: #fdffdf;
+    text-align: center;
+  }
+
+  .fset1-01_segment1,
+  .fset1-01_segment2,
+  .fset1-01_segment3 {
+    padding: 4px;
+  }
+
+  .fset1-01_img-holder {
+    border: 1px solid #000;
+    float: left;
+    width: 60px;
+    height: 60px;
     margin-right: 6px;
+
+    > img {
+      height: 100%;
+    }
+
   }
 
-  li {
-    padding: 6px 6px 6px 0px;
-    margin-bottom: 6px;
-
-    &:nth-of-type(odd) {
+  .fset1-01_leftnav {
+    a {
+      display: inline-block;
+      color: #d7d6a1;
+      font-size: 16px;
+      line-height: 100%;  
+      margin-left: 6px;
     }
 
-    &:first-of-type {
-      border-bottom: 1px solid #000;
-      padding: 0px 6px 6px 0px;
+    > ul {
+      margin-left: 6px;
+      margin-right: 6px;
     }
 
-    &:last-of-type {
-      border-bottom: none;
+    li {
+      padding: 6px 6px 6px 0px;
+      margin-bottom: 6px;
+
+      &:first-of-type {
+        border-bottom: 1px solid #000;
+        padding: 0px 6px 6px 0px;
+      }
+
+      &:last-of-type {
+        border-bottom: none;
+      }
     }
   }
-}
 
-.fset1-01_leftnav_nav-title {
-  font-weight: bold;
-  color: #000;
-}
-
-.fset1-01_leftnav_img-holder {
-  border:  1px solid #000;
-  width: 20px;
-  height: 20px;
-  display: inline;
-  float: left;
-  margin-bottom: 4px;
-  margin-right: 4px;
-}
+  .fset1-01_leftnav_img-holder {
+    border:  1px solid #000;
+    width: 20px;
+    height: 20px;
+    display: inline;
+    float: left;
+    margin-bottom: 4px;
+    margin-right: 4px;
+  }
 
 // fset1-01 media queries (_mq.scss)
 // mobile portrait (320x480)
@@ -117,7 +109,7 @@ body {
 // *small tablet portrait (600x800)
 @include mq($from: smallTabletPortrait) {
   .fset1-01 {
-    padding: 6px 10px 6px 10px; /* trbl */
+    padding: 6px 10px 6px 10px;
   }
 
   .fset1-01_img-holder {
