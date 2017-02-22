@@ -764,13 +764,13 @@ body {
 .fset1-01_segment3 {
   padding: 4px; }
 
-/* fset1-01_li-article4 */
-.fset1-01_li-article4_img-holder {
+.fset1-01_img-holder {
+  border: 1px solid #000;
   float: left;
   width: 60px;
   height: 60px;
   margin-right: 6px; }
-  .fset1-01_li-article4_img-holder > img {
+  .fset1-01_img-holder > img {
     height: 100%; }
 
 .fset1-01_leftnav2 a {
@@ -808,7 +808,7 @@ body {
 @media (min-width: 20em) {
   .fset1-01 {
     padding: 0; }
-  .fset1-01_li-article4_img-holder {
+  .fset1-01_img-holder {
     float: none;
     clear: right;
     margin-right: auto;
@@ -818,7 +818,7 @@ body {
   .fset1-01 {
     padding: 6px 10px 6px 10px;
     /* trbl */ }
-  .fset1-01_li-article4_img-holder {
+  .fset1-01_img-holder {
     float: left;
     margin-right: 6px; } }
 
