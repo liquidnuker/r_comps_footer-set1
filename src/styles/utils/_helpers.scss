@@ -1,0 +1,16 @@
+%mp--0 {
+  margin: 0;
+  padding: 0;
+}
+
+%margin--auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+%img--responsive {
+  display: block;
+  width: 100%; /* optional */
+  max-width: 100%;
+  height: auto;
+}
