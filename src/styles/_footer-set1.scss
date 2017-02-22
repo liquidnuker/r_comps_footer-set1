@@ -5,36 +5,36 @@ body {
 
 // fset1_01
 // ==================================================/
-.fset1--01 {
+.fset1-01 {
   background-color: #4d3d29;
 }
 
-.fset1--01 p {
+.fset1-01 p {
   color: #d7d6a1;
 }
 
-.fset1--01 h4 {
+.fset1-01 h4 {
   color: #fff;
 }
 
-.fset1--01 hr {
+.fset1-01 hr {
   color: #372c1f;
 }
 
-.fset1--01_copyright {
+.fset1-01_copyright {
   text-align: center;
   display: block;
   color: #fdffdf;
 }
 
-.fset1--01_segment1,
-.fset1--01_segment2,
-.fset1--01_segment3 {
+.fset1-01_segment1,
+.fset1-01_segment2,
+.fset1-01_segment3 {
   padding: 4px;
 }
 
-/* fset1--01_li-article4 */
-.fset1--01_li-article4_img-holder {
+/* fset1-01_li-article4 */
+.fset1-01_li-article4_img-holder {
   float: left;
   width: 60px;
   height: 60px;
@@ -46,7 +46,7 @@ body {
 
 }
 
-.fset1--01_leftnav2 {
+.fset1-01_leftnav2 {
   a {
     display: inline-block;
     color: #d7d6a1;
@@ -78,12 +78,12 @@ body {
   }
 }
 
-.fset1--01_leftnav2_nav-title {
+.fset1-01_leftnav2_nav-title {
   font-weight: bold;
   color: #000;
 }
 
-.fset1--01_leftnav2_img-holder {
+.fset1-01_leftnav2_img-holder {
   width: 20px;
   height: 20px;
   display: inline;
@@ -92,14 +92,14 @@ body {
   margin-right: 4px;
 }
 
-// fset1--01 media queries (_mq.scss)
+// fset1-01 media queries (_mq.scss)
 // mobile portrait (320x480)
 @include mq($from: mobile) {
-  .fset1--01 {
+  .fset1-01 {
     padding: 0;
   }
 
-  .fset1--01_li-article4_img-holder {
+  .fset1-01_li-article4_img-holder {
     float: none;
     clear: right;
     margin-right: auto;
@@ -109,11 +109,11 @@ body {
 
 // *small tablet portrait (600x800)
 @include mq($from: smallTabletPortrait) {
-  .fset1--01 {
+  .fset1-01 {
     padding: 6px 10px 6px 10px; /* trbl */
   }
 
-  .fset1--01_li-article4_img-holder {
+  .fset1-01_li-article4_img-holder {
     float: left;
     margin-right: 6px;
   } 
