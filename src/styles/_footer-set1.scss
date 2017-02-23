@@ -158,16 +158,12 @@ body {
     }
 
     .fset1-02_segment4 {
+      form {
+        margin-top: 6px;
+      }
+
       .btn {
-// background: -webkit-gradient(linear, left top, right top, from(#cc0000), to(#be0101));
-// background: -webkit-linear-gradient(top, #cc0000, #be0101);
-// background: -moz-linear-gradient(top, #cc0000, #be0101);
-// background: -o-linear-gradient(top, #cc0000, #be0101);
-// background: -ms-linear-gradient(top, #cc0000, #be0101);
-// background: linear-gradient(top, #cc0000, #be0101);
-// background-color: #cc0000;
-// text-shadow: 1px 1px 1px #000;
-// color: #fff;
+// .btn gradient background
 }
 
 input[type=text] {
@@ -196,10 +192,10 @@ input[type=text] {
     display: inline-block;
     margin-left: 2px;
     margin-bottom: 8px;
-}
+  }
 
-.fset1-02_divider {
-  height: 1px;
+  .fset1-02_divider {
+    height: 1px;
 // width: 80%;
 background-color: #000;
 margin-top: 4px;
@@ -210,3 +206,6 @@ margin-bottom: 8px;
 }
 
 @include fset1-02;
+
+// fset1-03
+// ==================================================/
