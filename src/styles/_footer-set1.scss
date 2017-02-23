@@ -214,10 +214,9 @@ margin-bottom: 8px;
     background-color: #666;
   }
 
-// fset1-03 carousel
 .fset1-03_carousel {
-  background-color: transparent;
-  text-align: center;
+  background-color: #999;
+  @extend %text--center;
 // @extend %padd--4;
 }
 
