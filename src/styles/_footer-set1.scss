@@ -30,7 +30,7 @@ body {
   .fset1-01_copyright {
     display: block;
     color: #fdffdf;
-    text-align: center;
+    @extend %text--center;
   }
 
   .fset1-01_fset1-02_segment1,
@@ -259,15 +259,17 @@ margin-bottom: 8px;
 
 .fset1-03_leftnav_imgholder {
   @extend %pos--relative;
-  width: 50px;
-  height: 50px;
+  @extend %text--center;
   display: inline;
   float: left;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
   margin-bottom: 4px;
   margin-right: 4px;
-  position: relative;
-  text-align: center;
-  border: 1px solid #000;
+  
+  
 
   span {
     @include center-both;
@@ -315,7 +317,6 @@ margin-bottom: 8px;
   .fset1-03_segment1,
   .fset1-03_segment2,
   .fset1-03_segment3 {
-
     padding: 6px;
   }
 }
