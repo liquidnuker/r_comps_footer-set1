@@ -210,32 +210,32 @@ margin-bottom: 8px;
 // fset1-03
 // ==================================================/
 @mixin fset1-03 {
-  .footer3 {
+  .fset1-03 {
     background-color: #666;
   }
 
-// footer3 carousel
-.footer3_carousel1 {
+// fset1-03 carousel
+.fset1-03_carousel1 {
   background-color: transparent;
   text-align: center;
 // @extend %padd--4;
 }
 
-.footer3_carousel1 > p {
+.fset1-03_carousel1 > p {
   margin-top: -2px;
 }
 
-.footer3_carousel1_sponsors {
+.fset1-03_carousel1_sponsors {
   @extend %text--left;
 }
 
-.footer3_carousel1_holder {
+.fset1-03_carousel1_holder {
   height: 68px;
   @extend %text--left;
 }
 
-// footer3 leftnav4    
-.footer3_leftnav4 {
+// fset1-03 leftnav4    
+.fset1-03_leftnav4 {
 
 
   a {
@@ -260,7 +260,7 @@ margin-bottom: 8px;
   }
 }
 
-.footer3_leftnav4_imgholder {
+.fset1-03_leftnav4_imgholder {
   @extend %pos--relative;
   width: 50px;
   height: 50px;
@@ -277,13 +277,13 @@ margin-bottom: 8px;
   }
 }
 
-// footer3 mapholder  
-.footer3_mapholder1 {
+// fset1-03 mapholder  
+.fset1-03_mapholder1 {
   border: 1px solid #000;
 // @extend %padd--4;
 }
 
-.footer3_mapholder1_imgholder {
+.fset1-03_mapholder1_imgholder {
   height: 180px;
 
   > img {
@@ -292,7 +292,7 @@ margin-bottom: 8px;
   }
 }  
 
-.footer3_mapholder1 {
+.fset1-03_mapholder1 {
   > address {
     font-style: normal;
   }
@@ -306,18 +306,18 @@ margin-bottom: 8px;
 
 // mobile portrait (320x480) 
 @include mq($from: mobile) {
-  .footer3_segment1,
-  .footer3_segment2,
-  .footer3_segment3 {
+  .fset1-03_segment1,
+  .fset1-03_segment2,
+  .fset1-03_segment3 {
     padding: 4px;
   }
 }
 
 // *small tablet portrait (600x800)
 @include mq($from: smallTabletPortrait) {
-  .footer3_segment1,
-  .footer3_segment2,
-  .footer3_segment3 {
+  .fset1-03_segment1,
+  .fset1-03_segment2,
+  .fset1-03_segment3 {
 
     padding: 6px;
   }
