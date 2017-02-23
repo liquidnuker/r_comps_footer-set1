@@ -126,7 +126,7 @@ body {
 @mixin fset1-02 {
   .fset1-02 {
     background-color: #141416;
-    > .footer-gradient {
+    > .fset1-02_gradient {
       background: -webkit-gradient(linear, left top, right top, from(#2c2d32), to(#0f0f10));
       background: -webkit-linear-gradient(top, #2c2d32, #0f0f10);
       background: -moz-linear-gradient(top, #2c2d32, #0f0f10);
@@ -145,6 +145,7 @@ body {
 
     .fset1-02_segment1 {
       > .fset1-02_img-holder {
+        border: 1px solid #000;
         width: 60px;
         height: 60px;
         margin-right: 6px;
