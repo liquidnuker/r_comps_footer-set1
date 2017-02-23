@@ -16,7 +16,7 @@ body, p, blockquote, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, form, field
 .fset1-03_leftnav_imgholder {
   position: relative; }
 
-.fset1-03_carousel1_sponsors, .fset1-03_carousel1_holder {
+.fset1-03_carousel_sponsors, .fset1-03_carousel_holder {
   text-align: left; }
 
 *,
@@ -882,14 +882,14 @@ body {
 .fset1-03 {
   background-color: #666; }
 
-.fset1-03_carousel1 {
+.fset1-03_carousel {
   background-color: transparent;
   text-align: center; }
 
-.fset1-03_carousel1 > p {
+.fset1-03_carousel > p {
   margin-top: -2px; }
 
-.fset1-03_carousel1_holder {
+.fset1-03_carousel_holder {
   height: 68px; }
 
 .fset1-03_leftnav a {
