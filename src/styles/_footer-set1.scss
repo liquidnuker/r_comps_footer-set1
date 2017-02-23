@@ -33,7 +33,7 @@ body {
     text-align: center;
   }
 
-  .fset1-01_segment1,
+  .fset1-01_fset1-02_segment1,
   .fset1-01_segment2,
   .fset1-01_segment3 {
     padding: 4px;
@@ -121,10 +121,10 @@ body {
 
 @include fset1_01;
 
-// fset1_02
+// fset1-02
 // ==================================================/
-@mixin fset1_02 {
-  .footer1 {
+@mixin fset1-02 {
+  .fset1-02 {
     background-color: #141416;
     > .footer-gradient {
       background: -webkit-gradient(linear, left top, right top, from(#2c2d32), to(#0f0f10));
@@ -136,15 +136,15 @@ body {
       background-color: #2c2d32;
     }
 
-    .segment1,
-    .segment2,
-    .segment3,
-    .segment4 {
+    .fset1-02_segment1,
+    .fset1-02_segment2,
+    .fset1-02_segment3,
+    .fset1-02_segment4 {
       padding: 6px 8px 0px 8px; /* trbl */
     }  
 
-    .segment1 {
-      > .img-holder {
+    .fset1-02_segment1 {
+      > .fset1-02_img-holder {
         width: 60px;
         height: 60px;
         margin-right: 6px;
@@ -156,7 +156,7 @@ body {
       }
     }
 
-    .segment4 {
+    .fset1-02_segment4 {
       .btn {
 // background: -webkit-gradient(linear, left top, right top, from(#cc0000), to(#be0101));
 // background: -webkit-linear-gradient(top, #cc0000, #be0101);
@@ -190,9 +190,8 @@ input[type=text] {
 }
 }
 
-.footer1_links {
+.fset1-02_links {
   a {
-    @extend %link_color--default;
     display: inline-block;
 // background-color: #ccc;
 margin-left: 2px;
@@ -210,4 +209,4 @@ margin-bottom: 8px;
 }
 }
 
-@include fset1_02;
+@include fset1-02;
