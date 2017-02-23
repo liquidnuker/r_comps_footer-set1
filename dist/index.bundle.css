@@ -10,10 +10,10 @@ body, p, blockquote, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, form, field
   margin: 0;
   padding: 0; }
 
-.fset1-03_leftnav4_imgholder {
+.fset1-03_leftnav_imgholder {
   position: absolute; }
 
-.fset1-03_leftnav4_imgholder {
+.fset1-03_leftnav_imgholder {
   position: relative; }
 
 .fset1-03_carousel1_sponsors, .fset1-03_carousel1_holder {
@@ -892,22 +892,22 @@ body {
 .fset1-03_carousel1_holder {
   height: 68px; }
 
-.fset1-03_leftnav4 a {
+.fset1-03_leftnav a {
   color: #fff;
   display: block;
   height: 50px;
   padding-top: 14px; }
 
-.fset1-03_leftnav4 li {
+.fset1-03_leftnav li {
   background-color: #999;
   border-bottom: 1px solid #000;
   padding: 6px; }
-  .fset1-03_leftnav4 li:nth-of-type(odd) {
+  .fset1-03_leftnav li:nth-of-type(odd) {
     background-color: #666; }
-  .fset1-03_leftnav4 li:last-of-type {
+  .fset1-03_leftnav li:last-of-type {
     border-bottom: none; }
 
-.fset1-03_leftnav4_imgholder {
+.fset1-03_leftnav_imgholder {
   width: 50px;
   height: 50px;
   display: inline;
@@ -917,7 +917,7 @@ body {
   position: relative;
   text-align: center;
   border: 1px solid #000; }
-  .fset1-03_leftnav4_imgholder span {
+  .fset1-03_leftnav_imgholder span {
     position: absolute;
     top: 50%;
     left: 50%;

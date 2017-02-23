@@ -235,9 +235,7 @@ margin-bottom: 8px;
 }
 
 // fset1-03 leftnav4    
-.fset1-03_leftnav4 {
-
-
+.fset1-03_leftnav {
   a {
     color: #fff;
     display: block;
@@ -260,7 +258,7 @@ margin-bottom: 8px;
   }
 }
 
-.fset1-03_leftnav4_imgholder {
+.fset1-03_leftnav_imgholder {
   @extend %pos--relative;
   width: 50px;
   height: 50px;
