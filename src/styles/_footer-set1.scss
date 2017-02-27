@@ -39,7 +39,14 @@ h1 {
     .fset1-01_segment1,
     .fset1-01_segment2,
     .fset1-01_segment3 {
-      padding: 4px;
+      @extend %padd--4;
+    }
+
+    .fset1-01_segment2 h3,
+    .fset1-01_segment3 h3 {
+      padding: 4px 0 4px 0; 
+      margin: 0 6px 0 6px; 
+      border-bottom: 1px solid #000;
     }
 
     .fset1-01_img-holder {
