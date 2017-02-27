@@ -768,7 +768,7 @@ h1 {
   .fset1-01 .fset1-01_copyright {
     display: block;
     color: #fdffdf; }
-  .fset1-01 .fset1-01_fset1-02_segment1,
+  .fset1-01 .fset1-01_segment1,
   .fset1-01 .fset1-01_segment2,
   .fset1-01 .fset1-01_segment3 {
     padding: 4px; }
@@ -792,9 +792,6 @@ h1 {
   .fset1-01 .fset1-01_leftnav li {
     padding: 6px 6px 6px 0px;
     margin-bottom: 6px; }
-    .fset1-01 .fset1-01_leftnav li:first-of-type {
-      border-bottom: 1px solid #000;
-      padding: 0px 6px 6px 0px; }
     .fset1-01 .fset1-01_leftnav li:last-of-type {
       border-bottom: none; }
   .fset1-01 .fset1-01_leftnav_img-holder {

@@ -36,7 +36,7 @@ h1 {
       color: #fdffdf;
     }
 
-    .fset1-01_fset1-02_segment1,
+    .fset1-01_segment1,
     .fset1-01_segment2,
     .fset1-01_segment3 {
       padding: 4px;
@@ -71,11 +71,6 @@ h1 {
       li {
         padding: 6px 6px 6px 0px;
         margin-bottom: 6px;
-
-        &:first-of-type {
-          border-bottom: 1px solid #000;
-          padding: 0px 6px 6px 0px;
-        }
 
         &:last-of-type {
           border-bottom: none;
